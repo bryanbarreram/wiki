@@ -45,4 +45,4 @@ process.on('message', (msg) => {
   if (msg === 'shutdown') {
     WIKI.kernel.shutdown()
   }
-})
+});
